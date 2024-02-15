@@ -289,3 +289,9 @@
 	});		
 
 })(jQuery);
+
+function submitProcess(){
+	console.log("Submited")
+	window.VWO = window.VWO || [];
+	window.VWO.push(['track.goalConversion',2]);
+}
